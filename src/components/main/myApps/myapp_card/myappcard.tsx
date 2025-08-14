@@ -35,6 +35,8 @@ const MyAppCard = ({
             <a
               href={link_app}
               className="text-[#f5f5f5] hover:underline px-4 py-2 bg-[#11308C] font-bold rounded"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Probar APP
             </a>
@@ -43,6 +45,8 @@ const MyAppCard = ({
             <a
               href={link_repo}
               className="text-[#f5f5f5] hover:underline px-4 py-2 bg-[#11308C] font-bold rounded"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               Repositorio
             </a>

@@ -18,8 +18,27 @@ const Header = () => {
               Desarrollador de aplicaciones web y móviles
             </p>
             <div className="flex gap-4">
-              <FaLinkedin color="#F5F5F5" className="text-4xl" />
-              <FaGithub color="#F5F5F5" className="text-4xl" />
+              <a
+                href="https://www.linkedin.com/in/bobi-matias-leonardo-02b457247/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaLinkedin
+                  color="#F5F5F5"
+                  className="text-4xl transition-all duration-300 ease-in-out hover:scale-110"
+                />
+              </a>
+
+              <a
+                href="https://github.com/MatiasBobi"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithub
+                  color="#F5F5F5"
+                  className="text-4xl transition-all duration-300 ease-in-out hover:scale-110"
+                />
+              </a>
             </div>
           </div>
         </div>
