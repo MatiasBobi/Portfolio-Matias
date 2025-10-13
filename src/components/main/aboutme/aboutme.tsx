@@ -1,4 +1,4 @@
-import aboutme_img from '../../../assets/aboutme.png';
+import aboutme_img from '../../../assets/aboutme.webp';
 
 const AboutMe = () => {
   return (

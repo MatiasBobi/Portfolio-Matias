@@ -1,4 +1,4 @@
-import my_photo from '../../assets/my_photo.jpg';
+import my_photo from '../../assets/my_photo.webp';
 import styles from './header.module.css';
 import { IoIosArrowDown } from 'react-icons/io';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
@@ -49,6 +49,7 @@ const Header = () => {
               className="brightness-75 w-full h-full object-cover"
               src={my_photo}
               alt="Foto de Matias Bobi"
+              loading="lazy"
             />
           </div>
 

@@ -1,7 +1,7 @@
 // Imagenes
 
-import unt from '../../assets/unt.png';
-import numen from '../../assets/numen.png';
+import unt from '../../assets/unt.webp';
+import numen from '../../assets/numen.webp';
 import styles from './main.module.css';
 import AboutMe from './aboutme/aboutme.tsx';
 import EducationCard from './education_card/education_card.tsx';
