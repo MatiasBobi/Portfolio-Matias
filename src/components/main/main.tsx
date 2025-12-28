@@ -10,7 +10,7 @@ import MyApps from './myApps/myapps.tsx';
 
 const Main = () => {
   return (
-    <main className={styles.main}>
+    <main className={styles.main} id="main">
       <AboutMe />
       <div>
         <article className="flex items-center flex-col">

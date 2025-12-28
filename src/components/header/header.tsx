@@ -43,7 +43,7 @@ const Header = () => {
           </div>
         </div>
         <div className="shadow-2xl flex items-center">
-          <span className="text-7xl text-[#FFD700] ">{'{'}</span>
+          <span className="text-7xl opacity-40 text-[#FFD700] ">{'{'}</span>
           <div className="rounded-full sm:rounded-b-full sm:rounded-r-full overflow-hidden mx-4 max-w-xs sm:max-w-sm w-full aspect-square">
             <img
               className="brightness-75 w-full h-full object-cover"
@@ -53,10 +53,15 @@ const Header = () => {
             />
           </div>
 
-          <span className="text-7xl text-[#FFD700]">{'}'}</span>
+          <span className="text-7xl opacity-40 text-[#FFD700]">{'}'}</span>
         </div>
         <div
           className={`${styles.scaleupcenter} absolute bottom-0 left-1/2 transform -translate-x-1/2 text-4xl cursor-pointer`}
+          onClick={() => {
+            document.getElementById('main')?.scrollIntoView({
+              behavior: 'smooth',
+            });
+          }}
         >
           <IoIosArrowDown color="#FFD700" />
         </div>

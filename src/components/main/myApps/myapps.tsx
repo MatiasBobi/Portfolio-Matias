@@ -4,6 +4,7 @@ import TucuLive from '../../../assets/tuculive.webp';
 import Biblioteca from '../../../assets/biblioteca.webp';
 import jobet from '../../../assets/jobet.webp';
 import old_portfolio from '../../../assets/old_portfolio.webp';
+import anigame from '../../../assets/anigame.webp';
 
 import MyAppCard from './myapp_card/myappcard';
 const MyApps = () => {
@@ -13,8 +14,16 @@ const MyApps = () => {
         img_link={TucuLive}
         alt_img="Imagen representativa sobre mi aplicación de celular, mi proyecto principal."
         title="TucuLive APP"
-        description="Aplicación de resultados en vivos de equipos de fútbol y estadísticas. Este es mi proyecto principal, al cual le dediqué bastante desarrollo, pretendo seguir actualizándolo. Está en una versión beta."
+        description="Aplicación de resultados en vivos de equipos de fútbol y estadísticas. Este es mi proyecto principal, al cual le dediqué bastante desarrollo, pretendo seguir actualizándolo."
         link_app="https://play.google.com/store/apps/details?id=com.futapk_TucuLive&hl=es_AR"
+      />
+      <MyAppCard
+        img_link={anigame}
+        alt_img="Imagen sobre mi juego Anigame realizado con nextjs"
+        title="Anigame"
+        description="Pagina de juegos sobre anime, realizada con nextjs para el frontend, supabase para manejar los usuarios y los datos de los animes, deployada en vercel."
+        link_app="https://animedle-nextjs-git-dev-matias-bobis-projects.vercel.app/"
+        link_repo="https://github.com/MatiasBobi/animedle_nextjs"
       />
       <MyAppCard
         img_link={AMOS}

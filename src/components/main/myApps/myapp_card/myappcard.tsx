@@ -14,18 +14,21 @@ const MyAppCard = ({
   link_app?: string;
 }) => {
   return (
-    <div className="flex flex-col shadow-[0_0_0_2px_rgba(255,255,255,0.1)] rounded-lg overflow-hidden w-[90%] md:w-[40%] md:h-128">
-      <div className="h-[50%]">
+    <article className="flex flex-col bg-[#131212] border border-gray-700 rounded-2xl overflow-hidden w-[90%] md:w-[40%] md:h-[520px] transition-all duration-300 hover:scale-[1.02] hover:border-yellow-400 hover:shadow-[0_0_25px_rgba(253,213,0,0.15)]">
+      <div className="aspect-video bg-black flex items-center justify-center">
         <img
           src={img_link}
           alt={alt_img}
-          className="w-full h-full object-cover md:object-contain"
+          className="w-full h-full object-contain"
         />
       </div>
-      <div className="flex flex-col h-[50%] p-4 justify-between">
+      <div className="flex flex-col flex-1 p-4 justify-between">
         <div>
-          <span className="text-2xl font-bold text-[#FDD500]">{title}</span>
-          <p className="text-lg text-gray-300 mt-4 mb-4 line-clamp-4">
+          <h3 className="text-2xl font-bold text-[#FDD500] tracking-wide">
+            {title}
+          </h3>
+
+          <p className="text-gray-300 text-base leading-relaxed mt-3 line-clamp-4">
             {description}
           </p>
         </div>
@@ -34,26 +37,27 @@ const MyAppCard = ({
           {link_app && (
             <a
               href={link_app}
-              className="text-[#f5f5f5] hover:underline px-4 py-2 bg-[#11308C] font-bold rounded"
               target="_blank"
               rel="noopener noreferrer"
+              className="flex-1 text-center bg-[#FDD500] text-black font-bold px-4 py-2 rounded-lg transition hover:bg-yellow-400"
             >
-              Probar APP
+              Probar App
             </a>
           )}
+
           {link_repo && (
             <a
               href={link_repo}
-              className="text-[#f5f5f5] hover:underline px-4 py-2 bg-[#11308C] font-bold rounded"
               target="_blank"
               rel="noopener noreferrer"
+              className="flex-1 text-center bg-gray-800 text-white font-bold px-4 py-2 rounded-lg transition hover:bg-yellow-400"
             >
               Repositorio
             </a>
           )}
         </div>
       </div>
-    </div>
+    </article>
   );
 };
 
