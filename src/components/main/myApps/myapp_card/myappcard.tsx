@@ -14,7 +14,7 @@ const MyAppCard = ({
   link_app?: string;
 }) => {
   return (
-    <article className="flex flex-col bg-[#131212] border border-gray-700 rounded-2xl overflow-hidden w-[90%] md:w-[40%] md:h-[520px] transition-all duration-300 hover:scale-[1.02] hover:border-yellow-400 hover:shadow-[0_0_25px_rgba(253,213,0,0.15)]">
+    <article className="flex flex-col bg-[#131212] border border-gray-700 rounded-2xl overflow-hidden w-[90%] md:w-[40%] md:min-h-[520px] transition-all duration-300 hover:scale-[1.02] hover:border-yellow-400 hover:shadow-[0_0_25px_rgba(253,213,0,0.15)]">
       <div className="aspect-video bg-black flex items-center justify-center">
         <img
           src={img_link}
@@ -28,7 +28,7 @@ const MyAppCard = ({
             {title}
           </h3>
 
-          <p className="text-gray-300 text-base leading-relaxed mt-3 line-clamp-4">
+          <p className="text-gray-300 text-base leading-relaxed mt-3 py-2">
             {description}
           </p>
         </div>

@@ -13,7 +13,7 @@ const Header = () => {
           <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold text-[#FFD700] text-center">
             Soy Matias Bobi
           </h1>
-          <div className="flex flex-col items-center">
+          <div className="mb-4 md:mb-0 flex flex-col items-center">
             <p className="text-base sm:text-lg md:text-2xl text-[#F5F5F5] mt-4 mb-4 text-center">
               Desarrollador de aplicaciones web y móviles
             </p>
