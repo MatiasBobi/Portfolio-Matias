@@ -22,7 +22,7 @@ const MyApps = () => {
         alt_img="Imagen sobre mi juego Anigame realizado con nextjs"
         title="Anigame"
         description="Pagina de juegos sobre anime, realizada con nextjs para el frontend, supabase para manejar los usuarios y los datos de los animes, deployada en vercel."
-        link_app="https://animedle-nextjs-git-dev-matias-bobis-projects.vercel.app/"
+        link_app="https://animedle-nextjs.vercel.app/"
         link_repo="https://github.com/MatiasBobi/animedle_nextjs"
       />
       <MyAppCard
