@@ -5,6 +5,8 @@ import Biblioteca from '../../../assets/biblioteca.webp';
 import jobet from '../../../assets/jobet.webp';
 import old_portfolio from '../../../assets/old_portfolio.webp';
 import anigame from '../../../assets/anigame.webp';
+import nodejs from '../../../assets/nodejs.webp';
+import aspnetcore from '../../../assets/aspnetcore.webp'
 
 import MyAppCard from './myapp_card/myappcard';
 const MyApps = () => {
@@ -56,6 +58,21 @@ const MyApps = () => {
         description="Proyecto de práctica sobre una biblioteca para guardar libros."
         link_repo="https://github.com/MatiasBobi/Libreria-sencilla"
         link_app="https://matias-bobi-libreria.netlify.app/"
+      />
+       <MyAppCard
+        img_link={nodejs}
+        alt_img="Servidor desarollado para mi viejo portfolio utilizando nodejs con express"
+        title="Backend de mi viejo portfolio"
+        description="Backend creado con nodejs y express para poder utilizar las funciones de registro y enviar mails de mi viejo portfolio."
+        link_repo="https://github.com/MatiasBobi/server-portfolio"
+      />
+      <MyAppCard
+        img_link={aspnetcore}
+        alt_img="Api de bakugans desarollada con asp net core 10"
+        title="Api Bakugans ASP.NET CORE"
+        description="Api desarollada con ASP.NET Core 10, mi primer backend con C# para manejar mis conocimientos. Tiene el swagger ui activado para test y utilice xUnit para los tests."
+        link_repo="https://github.com/MatiasBobi/BakuganApi"
+
       />
     </section>
   );

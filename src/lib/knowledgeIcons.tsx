@@ -5,6 +5,7 @@ import {
   FaNodeJs,
   FaGitAlt,
   FaDocker,
+  FaMicrosoft,
 } from 'react-icons/fa';
 import {
   SiReactquery,
@@ -46,6 +47,7 @@ export const knowledgeData = [
       { name: 'Sequelize', icon: SiSequelize, color: '#399af3' },
       { name: 'GraphQL', icon: GrGraphQl, color: '#e535ab' },
       { name: 'Apollo', icon: SiApollographql, color: '#311c87' },
+      { name: 'ASP.NET Core', icon: FaMicrosoft, color: '#650f96' }
     ],
   },
   {
